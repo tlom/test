@@ -1,0 +1,39 @@
+{
+	"status": "OK",
+	"statusMessage": "Multiple entities - examples.",
+	"entities": [
+        {
+			"id": "n1"
+		},        
+		{
+			"id": "n2",
+            "properties": {
+                "i2.label": "No TypeId"
+            }
+		},
+		{
+			"id": "n3",
+			"typeId": "i2.person",
+            "properties": {
+                "i2.fullName": "With TypeId"
+            }
+		},
+		{
+			"id": "n4",
+			"typeId": "i2.person",
+            "properties": {
+                "i2.fullName": "TypeId + Custom Icon"
+            },
+            "icon": "anon"
+		},
+		{
+			"id": "n5",
+			"typeId": "i2.person",
+            "properties": {
+                "i2.fullName": "TypeId + Custom Image"
+            },
+            "imageUrl": "http://localhost:8080/assets/icons_custom/Cow.png"
+		}
+	],
+	"links": []
+}
